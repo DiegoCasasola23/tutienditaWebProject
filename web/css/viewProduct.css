@@ -1,0 +1,44 @@
+.productoCompleto{
+    text-align: justify;
+    width: 280px;
+    margin: 0px auto 0px auto;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#imagenP{
+    width: 100%;
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+.informacionProducto div:not(:first-child){
+    margin-top: 10px;
+}
+
+
+@media (min-width: 768px) {
+
+}
+
+
+@media (min-width: 992px) {
+
+    .productoCompleto{
+        width: 1200px;
+        display: flex;
+        margin: 0px auto 0px auto;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #imagenP{
+        width: 500px;
+        margin-right: 40px;
+    }
+
+    .informacionProducto{
+        width: 500px;
+    }
+}

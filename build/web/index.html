@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tu Tiendita</title>
+        
+        <link rel="shortcut icon" href="images/logo.png">
+        <link rel="stylesheet" href="css/fontawseome.all.min.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/head.css">
+        <link rel="stylesheet" href="css/banner.css">
+        <link rel="stylesheet" href="css/promos.css">
+        <link rel="stylesheet" href="css/products.css">
+        <link rel="stylesheet" href="css/buscador.css">
+        <link rel="stylesheet" href="css/categorias.css">
+        <link rel="stylesheet" href="css/footer.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <header>
+                <div class="head-nav">
+                    <div class="nav-titulo">
+                        <a href="index.html">
+                            <img src="images/logo.png" alt="logo-MT">
+                            <p>Tu Tiendita</p>
+                        </a>
+                    </div>
+                    <div class="bus-ses">
+                        <div class="buscador">
+                            <!--<form class="form-search content-search
+                                navbar-form">
+                                <div class="input-group">
+                                    <input placeholder="Buscar"
+                                        class="form-control
+                                        form-text" type="text" />
+                                </div>
+                            </form> -->
+                        </div>
+                        <div class="botones">
+                            <div class="btn-inSes" id="boton-sesion">
+                                <a href="login.html" class="btn">Iniciar Sesión</a>
+                            </div>
+                            <p id="usuario-name"></p>
+                            <div class="btn-panel">
+                                <a href="dashboard.html" class="btn">Publicar</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </header>
+            <div class="second-nav">
+                <div id="main-menu">
+                    <label id="switch-label" for="menu-switch">
+                        <i class="fas fa-bars"></i>
+                        Menu
+                    </label>
+                    <input type="checkbox" id="menu-switch">
+                    <ul>
+                        <li id="iniSes-list">
+                            <a href="login.html">
+                                <span>Iniciar Sesion</span>
+                            </a>
+                        </li>
+                        <li id="reg-list">
+                            <a href="singUp.html">
+                                <span>Registrarse</span>
+                            </a>
+                        </li>
+                        <li id="panCo-list">
+                            <a href="dashboard.html">
+                                <span>Panel de Control</span>
+                            </a>
+                        </li>
+                        <li id="cate-list">
+                            <a href="" id="list-salir">
+                                <span>Salir</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="menu-categorias">
+                    <label id="switch-categoria" for="categoria-switch">
+                        Categorias
+                    </label>
+                    <input type="checkbox" id="categoria-switch">
+                    <ul>
+                        <li>
+                            <button id="btnAutos" value="Autos" class="btnCategoria" type="button">
+                                <span>Autos</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button id="btnElectrodomesticos" value="Electrodomesticos" class="btnCategoria" type="button">
+                                <span>Electrodomesticos</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button  id="btnMusica" value="Musica" class="btnCategoria" type="button">
+                                <span>Musica</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button  id="btnDeportes" value="Deportes" class="btnCategoria" type="button">
+                                <span>Deportes</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button  id="btnElectronicos" value="Electronicos" class="btnCategoria" type="button">
+                                <span>Electronicos</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button  id="btnHogar" value="Hogar" class="btnCategoria" type="button">
+                                <span>Hogar</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button  id="btnInmuebles" value="Inmuebles" class="btnCategoria" type="button">
+                                <span>Inmuebles</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button  id="btnNinos" value="Ninos y Bebes" class="btnCategoria" type="button">
+                                <span>Niños y Bebes</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button  id="btnVestimenta" value="Vestimenta y Moda" class="btnCategoria" type="button">
+                                <span>Vestimenta y Moda</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button  id="btnServicios" value="Servicios" class="btnCategoria" type="button">
+                                <span>Servicios</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button  id="btnVarios" value="Varios" class="btnCategoria" type="button">
+                                <span>Varios</span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <section id="banner">
+                <div id="banner-container">
+                    <div class="banner-product">
+                        <img src="images/fondotienda.jpg"
+                            alt="auto-product">
+                        <div class="product-info">
+                            <div class="text">
+                                <h2>Tu tienda Virtual</h2>
+                                <p>Al alcance de tus manos</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--<div id="promos">
+                <div class="promo-contenedor">
+                    <div class="promo-link">
+                        <a href="#">
+                            <img src="images/outlet.png" alt="zona-outlet">
+                        </a>
+                    </div>
+                    <div class="promo-link">
+                        <a href="dashboard.html">
+                            <img src="images/remate.png" alt="remate">
+                        </a>
+                    </div>
+                    <div class="promo-link">
+                        <a href="#">
+                            <img src="images/envios-gratis.png"
+                                alt="gratis-envio">
+                        </a>
+                    </div>
+                </div>
+
+            </div>-->
+            <div class="container" id="contenedor-productos">
+                <div id="contenido-productos" class="productos">
+
+                </div>
+            </div>
+            
+            <section class="footer">
+                <div class="firsFoot">
+                    <div class="firstContent">
+                        <div class="misRedes">
+                            <p>Redes Sociales:</p>
+                            <div class="facebook">
+                                <a href="https://www.facebook.com/diegoandrecf/">
+                                    <i class="fab fa-facebook-square"></i>
+                                    <span>/diegoandrecf</span>
+                                </a>
+                            </div>
+                            <div class="instagram">
+                                <a href="https://www.instagram.com/diegocasasola/">
+                                    <i class="fab fa-instagram-square"></i>
+                                    <span>@diegocasasola</span>
+                                </a>
+                            </div>
+                            <div class="whatsapp">
+                                <a href="https://wa.me/message/DCDZIQHVQT6JN1">
+                                    <i class="fab fa-whatsapp-square"></i>
+                                    <span>+591 72687912</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="emprendimiento">
+                            <p>Mi emprendimiento:</p>
+                            <div class="facebook">
+                                <a href="https://www.facebook.com/SublimacionTotalBolivia">
+                                    <i class="fab fa-facebook-square"></i>
+                                    <span>/SublimacionTotalBolivia</span>
+                                </a>
+                            </div>
+                            <div class="instagram">
+                                <a href="https://www.instagram.com/subli.total.bo/">
+                                    <i class="fab fa-instagram-square"></i>
+                                    <span>@subli.total.bo</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="secondFoot">
+                    <div class="secondContent">
+                        <p>Copyright © Tutiendita Todos los derechos reservados.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>

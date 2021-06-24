@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro</title>
+        <link rel="shortcut icon" href="images/logo.png">
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="css/fontawseome.all.min.css">
+    </head>
+    <body>
+        <form>
+            <div class="back">
+                <a href="index.html"><i class="fas fa-angle-left"></i> Volver</a>
+            </div>
+            <div class="title">
+                <h1>Registro</h1>
+            </div>
+            <div class="txt_field">
+                <input type="text" id="inputName">
+                <span></span>
+                <label>Nombre Completo</label>
+            </div>
+            <div class="err-msg" id="validation-name">
+                Debe ingresar su Nombre
+            </div>
+            <div class="txt_field">
+                <input type="text" id="inputUser">
+                <span></span>
+                <label>Nombre de Usuario</label>
+            </div>
+            <div class="err-msg" id="validation-username">
+                Debe ingresar un nombre de usuario
+            </div>
+            <div class="txt_field">
+                <input type="mail" id="inputMail">
+                <span></span>
+                <label>Correo</label>
+            </div>
+            <div class="err-msg" id="validation-mail">
+                Debe ingresar un correo
+            </div>
+            <div class="txt_field">
+                <input type="password" id="inputPassword">
+                <span></span>
+                <label>Contraseña</label>
+            </div>
+            <div class="err-msg" id="validation-password">
+                Debe ingresar una contraseña
+            </div>
+            <div class="txt_field">
+                <input type="password" id="inputPasswordSecond">
+                <span></span>
+                <label>Contraseña</label>
+            </div>
+            <div class="err-msg" id="validation-password-second">
+                Vuelva a ingresar la contraseña
+            </div>
+
+            <div class="alert" id="msg-error-regis" style="display: none" role="alert"></div>
+
+            <button id="btn-regis" class="btn" type="button">Registrarme</button>
+        </form>
+        <script src="js/user-frm.js"></script>
+    </body>
+</html>

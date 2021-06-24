@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Panel</title>
+        <link rel="stylesheet" href="css/fontawseome.all.min.css">
+        <link rel="shortcut icon" href="images/logo.png">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/dashboard.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/products.css">
+
+    </head>
+    <body>
+
+        <header>
+            <div class="head-user">
+                <div class="head-title">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="logo-MT">
+                        <p>Tu Tiendita</p>
+                    </a>
+                </div>
+                <p class="usuario-name" id="name"></p>
+                <h1 class="titulo">Panel de control</h1>
+                <nav class="user-conected">
+                    <a href="" id="conected-user"></a>
+                </nav>
+                <div class="btn-izq">
+                    <a href="index.html" id="btn-atras" class="btn"
+                        type="button">Volver</a>
+                    <button id="btn-fin" class="btn" type="button">Cerrar Sesión</button>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="container">
+
+            <div class="row">
+                <div class="list-con">
+                    <h1>Lista de Productos</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="saved" id="ok_contact_saved" style="display: none;">
+                    <div class="msg-alert" role="alert">
+                        El Producto fue guardado correctamente.
+                    </div>
+                </div>
+                <div class="new-product">
+                    <a href="product-frm.html" class="btn-NewProduct">Nuevo
+                        Producto</a>
+                </div>
+            </div>
+
+            <div class="container" id="contenedor-productos">
+                <div id="contenido-productos" class="productos">
+
+                </div>
+            </div>
+        </div>
+
+        <section class="footer">
+            <div class="firsFoot">
+                <div class="firstContent">
+                    <div class="misRedes">
+                        <p>Redes Sociales:</p>
+                        <div class="facebook">
+                            <a href="https://www.facebook.com/diegoandrecf/">
+                                <i class="fab fa-facebook-square"></i>
+                                <span>/diegoandrecf</span>
+                            </a>
+                        </div>
+                        <div class="instagram">
+                            <a href="https://www.instagram.com/diegocasasola/">
+                                <i class="fab fa-instagram-square"></i>
+                                <span>@diegocasasola</span>
+                            </a>
+                        </div>
+                        <div class="whatsapp">
+                            <a href="https://wa.me/message/DCDZIQHVQT6JN1">
+                                <i class="fab fa-whatsapp-square"></i>
+                                <span>+591 72687912</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="emprendimiento">
+                        <p>Mi emprendimiento:</p>
+                        <div class="facebook">
+                            <a
+                                href="https://www.facebook.com/SublimacionTotalBolivia">
+                                <i class="fab fa-facebook-square"></i>
+                                <span>/SublimacionTotalBolivia</span>
+                            </a>
+                        </div>
+                        <div class="instagram">
+                            <a href="https://www.instagram.com/subli.total.bo/">
+                                <i class="fab fa-instagram-square"></i>
+                                <span>@subli.total.bo</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="secondFoot">
+                <div class="secondContent">
+                    <p>Copyright © Tutiendita Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </section>
+
+        <script src="js/dashboard.js"></script>
+    </body>
+</html>

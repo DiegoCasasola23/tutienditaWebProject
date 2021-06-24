@@ -1,0 +1,263 @@
+header {
+    background-color: #E6CA10;
+}
+
+.head-nav {
+    padding-top: 20px;
+    padding-bottom: 3px;
+    width: 300px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-titulo a {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.nav-titulo a img {
+    display: block;
+    margin: auto;
+    width: 80px;
+}
+
+.nav-titulo a p {
+    display: none;
+}
+
+.nav-options img {
+    display: none;
+}
+
+.bus-ses {
+    align-items: center;
+}
+
+.btn-inSes, .btn-panel {
+    
+    display: none;
+}
+
+.btn-inSes a, .btn-panel a {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #000000;
+    border-radius: 6px;
+    background-color: #f1e69a;
+}
+
+.botones {
+    align-items: center;
+}
+
+#usuario-name{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#search-img {
+    width: 50px;
+}
+
+#user-img {
+    width: 50px;
+}
+
+.second-nav{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-menu ul, #main-menu li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#main-menu a {
+    padding: 10px 0px;
+    display: block;
+    font-family: 'Bebas', sans-serif;
+    text-decoration: none;
+    font-size: 11px;
+    color: #474747;
+    text-transform: uppercase;
+}
+
+#main-menu a span {
+    color: rgb(0, 0, 0);
+}
+
+#switch-label {
+    color: rgb(0, 0, 0);
+    font-family: 'Bebas', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    padding: 10px;
+}
+
+#menu-switch {
+    display: none;
+}
+
+#main-menu ul {
+    display: none;
+}
+
+#menu-switch:checked+ul, .head-nav {
+    display: block;
+}
+
+/*menu de categorias*/
+
+#menu-categorias ul, #menu-categorias li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#menu-categorias a {
+    padding: 10px 0px;
+    display: block;
+    font-family: 'Bebas', sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    color: #474747;
+    text-transform: uppercase;
+}
+
+#menu-categorias a span {
+    color: rgb(0, 0, 0);
+}
+
+#switch-categoria {
+    color: rgb(0, 0, 0);
+    font-family: 'Bebas', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    padding: 10px;
+}
+
+#menu-categorias li:not(:first-child) {
+    margin-top: 15px;
+}
+
+#categoria-switch {
+    display: none;
+}
+
+#menu-categorias ul {
+    display: none;
+}
+
+#categoria-switch:checked+ul, .head-nav {
+    display: block;
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {
+    #switch-label {
+        display: none;
+    }
+
+    #switch-categoria {
+        display: none;
+    }
+
+    #menu-categorias ul, #menu-categorias li {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0px auto 0px auto;
+    }
+    #menu-categorias a {
+        display: unset;
+        font-size: 12px;
+        font-weight: none;
+    }
+    #menu-categorias li:not(:first-child) {
+        border-top: none;
+        margin-top: unset;
+        margin-left: 25px;
+    }
+    #menu-categorias a:first-child {
+        padding: unset;
+    }
+    .head-nav {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 1200px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-titulo a {
+        align-items: center;
+        padding-bottom: unset;
+        text-decoration: none;
+    }
+    .nav-titulo a p {
+        display: initial;
+        color: white;
+        margin: 0px auto 0px auto;
+        margin-left: 10px;
+        font-size: 35px;
+    }
+    .nav-titulo a img {
+        margin: unset;
+        width: 60px;
+    }
+    .bus-ses {
+        display: flex;
+        align-items: center;
+    }
+    .buscador {
+        margin-right: 20px;
+    }
+    .botones {
+        display: flex;
+        margin: auto;
+    }
+    .btn-inSes, .btn-panel {
+        display: flex;
+        justify-content: center;
+    }
+    .btn-inSes a, .btn-panel a {
+        text-decoration: none;
+        padding: 10px;
+        font-weight: 600;
+        font-size: 17px;
+        color: #000000;
+        border-radius: 6px;
+        background-color: #f1e69a;
+    }
+    .btn-inSes a:first-child {
+        margin-right: 20px;
+    }
+    .btn-inSes a:hover {
+        color: #975b0c;
+        background-color: #ffffff;
+    }
+    .second-nav {
+        width: 1200px;
+        margin: 0px auto 0px auto;
+        margin-top: 15px;
+    }
+    #main-menu{
+        display: none;
+    }
+    .bus-ses p {
+        font-size: 30px;
+        margin: 0px;
+        margin-right: 10px;
+    }
+}

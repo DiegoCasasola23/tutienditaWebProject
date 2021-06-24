@@ -1,0 +1,13 @@
+#menu-categorias ul li button{
+    all: unset;
+}
+
+#menu-categorias span{
+    color: black;
+    font-weight: bold;
+}
+
+#menu-categorias ul li button:hover, #menu-categorias span:hover{
+    cursor: pointer;
+    color: rgb(34, 27, 75);
+}

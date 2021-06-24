@@ -1,0 +1,116 @@
+.producto {
+    background-color: rgb(229, 238, 150);
+}
+
+.catalogo-productos .producto:not(:first-child) {
+    margin-top: 25px;
+}
+
+.container {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.productos {
+    margin: 0px auto 0px auto;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #f4a261;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.productos a{
+    text-decoration: none;
+    color: black;
+}
+
+.productos a:hover{
+    color: peru;
+}
+
+.producto {
+    width: 200px;
+    margin-top: 10px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 1px .1rem .100rem rgb(128, 128, 128);
+}
+
+.producto-info div:not(:first-child){
+    margin-top: 7px;
+}
+
+.producto-title {
+    font-size: 20px;
+}
+.producto-img {
+    margin: 0px auto 0px auto;
+    width: 200px;
+    height: 200px!important;
+    background-size: cover!important;
+    background-position: center!important;
+    background-repeat: no-repeat;
+    margin-bottom: 0!important;
+}
+
+.producto h2 {
+    color: black;
+}
+
+@media (min-width: 768px) {
+
+    .productos {
+        width: 700px;
+    }
+
+    .producto {
+        width: 250px;
+    }
+    
+    .producto-img {
+        width: 250px;
+        height: 100px;
+    }  
+
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 1200px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .productos {
+        width: unset;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: #f4a261;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .producto {
+        width: unset;
+        margin-top: 10px;
+        background-color: white;
+        padding: 25px;
+        border-radius: 8px;
+        box-shadow: 1px .1rem .100rem rgb(128, 128, 128);
+    }
+    .producto-title {
+        font-size: 20px;
+    }
+    .producto-img {
+        width: 300px;
+        height: 200px!important;
+        background-size: cover!important;
+        background-position: center!important;
+        background-repeat: no-repeat;
+        margin-bottom: 0!important;
+    }
+}

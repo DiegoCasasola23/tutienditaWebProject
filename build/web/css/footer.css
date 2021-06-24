@@ -1,0 +1,112 @@
+.firsFoot {
+    background-color: #ffffff;
+    margin-top: 30px;
+}
+.firstContent {
+    padding: 20px;
+    margin: 0px auto 0px auto;
+}
+.firstContent p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+.firstContent a {
+    text-decoration: none;
+}
+.secondFoot {
+    background-color: #E6CA10;
+}
+.secondContent {
+    margin: 0px auto 0px auto;
+    padding: 10px;
+}
+
+.secondContent p{
+    text-align: center;
+}
+.misRedes div:not(:first-child), .emprendimiento div:not(:first-child) {
+    margin-top: 10px;
+}
+.facebook i {
+    color: #3b5998;
+    font-size: 30px;
+}
+.instagram i {
+    background: linear-gradient( #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+.whatsapp i {
+    color: #00bb2d;
+    font-size: 30px;
+}
+
+.firstContent span{
+    color: black;
+}
+
+@media (min-width: 768px) {
+    .firstContent{
+        padding: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0px auto 0px auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .firsFoot {
+        background-color: #ffffff;
+        margin-top: 30px;
+    }
+    .firstContent {
+        width: 1200px;
+        padding: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0px auto 0px auto;
+    }
+    .firstContent p {
+        text-align: center;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .firstContent a {
+        text-decoration: none;
+    }
+    .secondFoot {
+        background-color: #E6CA10;
+    }
+    .secondContent {
+        width: 1200px;
+        margin: 0px auto 0px auto;
+        padding: 10px;
+    }
+
+    .secondContent p{
+        text-align: center;
+    }
+    .misRedes div:not(:first-child), .emprendimiento div:not(:first-child) {
+        margin-top: 10px;
+    }
+    .facebook i {
+        color: #3b5998;
+        font-size: 30px;
+    }
+    .instagram i {
+        background: linear-gradient( #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 30px;
+    }
+    .whatsapp i {
+        color: #00bb2d;
+        font-size: 30px;
+    }
+
+    .firstContent span{
+        color: black;
+    }
+}
